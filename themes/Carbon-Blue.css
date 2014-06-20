@@ -26,8 +26,7 @@ Good luck, have fun!
 
 .jstree-brackets li a, .jstree-brackets li .extension, .jstree-brackets li a.jstree-clicked, /* Files, folder and extensions */
 #open-files-container li a, #open-files-container li .extension, #open-files-container li a.jstree-clicked{ /* Files, folder and extensions in "working files"*/
-    color:#586e75;
-    text-shadow: 0 0 1px #000;
+    color:#fff;
 }
 
 /*Main area*/
@@ -74,7 +73,7 @@ Good luck, have fun!
 .CodeMirror .CodeMirror-matchingtag{background:none;border-bottom: solid 1px #269186} /*Matching tags, open/close. Try !important for bg, color etc. if it doesn't work*/
 div.CodeMirror span.CodeMirror-matchingbracket{background:none;border-bottom: solid 1px #666;color:#ff3426} /*Matching brackets, open/close*/
 
-.CodeMirror-selected{background-color:#222218!important;} /*Selected lines - may need !important*/
+.CodeMirror-selected{background-color:#000!important;} /*Selected lines - may need !important*/
 .CodeMirror-activeline-background{background-color:#2f393c!important;} /*Active line - may need !important*/
 .CodeMirror-gutter-elt{background-color:#25292a!important;color: #586e75!important; padding: 0 15px 0 10px;} /*Active line, line count section*/
 
