@@ -3,10 +3,19 @@ BearTheme is bare theme for styling Adobe Brackets (Code Mirror) editor. Some el
 Good luck, have fun!
 */
 
+
+.sidebar-selection, .sidebar-selection-triangle{ /* Selected file or folder */
+    background:#0f0f0f;
+      
+}
+.sidebar-selection-triangle{
+    background-color: #0f0f0f;
+}
+
 /*Sidebar*/
 
 #sidebar{background-color:#000} /*General sidebar style*/
-#sidebar #working-set-header{background-color:#000000;color:#aeaeae;} /*"Working files" header*/
+#sidebar #working-set-header{background-color:#0f0f0f;color:#aeaeae;} /*"Working files" header*/
 #sidebar #open-files-container{background-color:#000000;color:#aeaeae;} /*Working files style*/
 #sidebar #open-files-container ul li.selected a{} /*Selected working file*/
 #sidebar #open-files-container ul li.selected a span.extension{} /*Selected working file's extension*/
@@ -14,7 +23,7 @@ Good luck, have fun!
 
 
 /*Project file header*/
-#sidebar #project-files-header{background-color:#272727} /*Browser header, path select, search, X etc.*/
+#sidebar #project-files-header{background-color:#0f0f0f} /*Browser header, path select, search, X etc.*/
 #sidebar #project-files-header #project-dropdown-toggle{} /*Path select toggle*/
 #sidebar #project-files-header #project-dropdown-toggle #project-title{} /*Currently selected project title*/
 #sidebar #project-files-header #project-dropdown-toggle .dropdown-arrow{} /*Select toggle arrow - SVG image*/
@@ -23,7 +32,7 @@ Good luck, have fun!
 
 
 /*Project files container*/
-#sidebar #project-files-container{background-color:#161616} /*Project files - WITHOUT header*/
+#sidebar #project-files-container{background-color:#000000} /*Project files - WITHOUT header*/
 #sidebar #project-files-container .jstree-icon{} /*Icon next to files (left side), like close/open arrow for parent element*/
 #sidebar #project-files-container li.jstree-closed{} /*Closed tree element*/
 #sidebar #project-files-container li.jstree-open{} /*Open tree element*/
